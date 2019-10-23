@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EJERCICIOS INPUT</title>
+</head>
+<link rel="stylesheet" href="./estilo.css">
+<body>
+        <form action="" method="get">
+                <fieldset>
+                        <legend>Datos Personales</legend>
+<table>
+                        <tr>Nombre y Apellido<input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre y apellido"> </tr>
+                         <br>
+                        <tr>Fecha de Nacimiento <input type="date" name="FechaNacimiento" id="FechaNacimiento" required = "true"></tr>
+                        <br>
+                        <tr>Lugar de Nacimiento <select name="LugarNacimiento" id="LugarNacimiento">
+                            <Option Value ="1" >-</Option>
+                            <option value="2">Junin</option>
+                            <option value="3">Los Toldos</option>
+                             </select>
+                            </table>
+                 </fieldset>
+
+                <fieldset >
+                               <legend>Datos Contacto</legend>
+                               <tr>Email <input type="email" name="email" id="email" required="true"> </tr>
+                               <br>
+                               <tr>Telefono <input type="number" name="Telefono" id="Telefono"> </tr>
+                               <tr>Celular <input type="radio" name="Tipo" id="Celular">  </tr>
+                               <tr>Fijo <input type="radio" name="Tipo" id="Fijo">  </tr>
+                </fieldset>
+                
+                <fieldset>
+                                <legend>Contraseña</legend>
+                                <tr>Contraseña <input type="password" name="Pass" id="Pass" required></tr>
+                                <tr>Repita Contraseña <input type="password" name="Pass" id="Pass" required></tr>
+                                <br>
+                                <tr> <input type="checkbox" name="Acepta" id="Acepta" required>Acepta Terminos y Condiciones</tr>
+                </fieldset>
+                 
+                <fieldset>
+                    <legend>Observaciones</legend>
+                    <tr>Comentarios <textarea name="Comentarios" id="comentarios" cols="30" rows="10"></textarea></tr>
+                    <br>
+                    <tr>Nivel de uso <input type="range" min= "0" max = "10" name="Uso" id="Uso" ></tr>
+                    <br>
+                    <tr>Hora Actual <input type="time" name="Hora" id="Hora"> </tr>
+                   
+                </fieldset>
+                <br>
+                <input type="submit" value="Enviar Formulario" required>    
+                </form>
+                
+</body>
+</html>
