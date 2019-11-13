@@ -27,8 +27,7 @@ color: blue;
 }
 
 p.nota::marker{
-content: "Nota" counter(nota-counter);
-
+    content: "Note" counter(note-counter);
 
 
 
