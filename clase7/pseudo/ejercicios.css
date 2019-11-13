@@ -1,0 +1,40 @@
+h1::before{
+content: "Esto es";
+color: blue;
+
+}
+
+
+h2::after {
+content: " un after";
+color: red;
+
+
+}
+
+#name{
+background-color: black;
+
+
+}
+
+p::first-letter{
+text-transform: capitalize;
+font-size: 2em;
+color: blue;
+
+
+}
+
+p.nota::marker{
+content: "Nota" counter(nota-counter);
+
+
+
+
+}
+
+::placeholder {
+color: red;
+
+}
