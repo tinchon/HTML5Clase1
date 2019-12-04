@@ -1,0 +1,28 @@
+.container {
+    display: inline-flex;
+    align-items: flex-end;
+    flex-basis: auto;
+    flex-flow: nowrap;
+
+
+
+
+
+
+
+
+
+
+}
+
+.item {
+
+    padding: 16px;
+    background-color: cyan;
+    width: 350px;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:left;
+
+}

@@ -1,0 +1,18 @@
+.grid-conteiner {
+    display: grid;
+grid-template-areas: 
+'header header header header header'
+'aside1 centre centre center aside2'
+'footer footer footer footer footer';
+grid-gap: 10px;
+border: 1px solid black;
+
+
+
+}
+
+.item1 {grid-area: header;}
+.item2 {grid-area: aside1;}
+.item3 {grid-area: centre;}
+.item4 {grid-area: aside2;}
+.item5 {grid-area: footer;}
